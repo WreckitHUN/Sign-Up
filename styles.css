@@ -1,0 +1,60 @@
+:root{
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    /* 1rem = 10px */
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+aside{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100vh;
+    background-image: url(assets/pic1.jpg);
+}
+
+.logo{
+    text-align: center;
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+.credit{
+    text-align: center;
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0.3);
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    flex: 2;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+
